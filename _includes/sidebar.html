@@ -1,0 +1,35 @@
+<div class="page-header">
+  <h3>
+    {{ site.title }}
+    {% if site.subtitle %}<br/><small>{{ site.subtitle }}</small>{% endif %}
+  </h3>
+</div>
+
+<p class="text-center">
+  <img width="200px" src="{{ site.url }}/img/logo-360x360.png" alt="{{ site.title }} logo">
+</p>
+
+{% if site.description %}<p>{{ site.description }}</p>{% endif %}
+
+<hr/>
+
+<h3> Documentation - Topics</h3>
+
+{{ site | documentation_list:page }}
+
+
+<h3> Source Code </h3>
+
+<ul>
+  <li>
+    <a href="https://github.com/jekyll-octopod/jekyll-octopod">
+      <i class="fa fa-github"></i> Github
+    </a>
+  </li>
+</ul>
+
+<h3>Social Media</h3>
+
+For us on Twitter for News!
+<br/>
+<a href="https://twitter.com/{{ site.twitter_nick }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter_nick }}</a>
