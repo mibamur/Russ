@@ -144,7 +144,7 @@ module Jekyll
       return if page['audio'].nil?
       out = %Q{<div class="podlove-player-wrapper">}
       out = out + %Q{  <audio data-podlove-web-player-source="/players/#{page['slug']}/index.html">\n}
-      out = out + "    <source src='episodes/#{page['audio']['mp3']}' type='audio/mp3'>\n"
+      out = out + "    <source src='/episodes/#{page['audio']['mp3']}' type='audio/mp3'>\n"
       out = out + "  </audio>\n"
       out = out + "</div>\n"
       out = out + "<script>$('audio').podlovewebplayer();</script>\n"
@@ -204,7 +204,7 @@ module Jekyll
       options = options.merge(page)
 
       out = "<script>\n$('audio').podlovewebplayer("
-      out << { poster: sitehash['url'] + (options['episode_cover'] || '/img/logo-360x360.png'),
+      out << { poster: sitehash['url'] + (options['episode_cover'] || '{{ site.logo }}'),
                subtitle: options['subtitle'],
                title: options['title'],
                alwaysShowHours: options['alwaysShowHours'],
@@ -217,7 +217,7 @@ module Jekyll
                show: { title: site['title'],
                        subtitle: site['subtitle'],
                        summary: site['description'],
-                       poster: sitehash['url'] + '/img/logo-360x360.png',
+                       poster: sitehash['url'] + '{{ site.logo }}',
                        url: sitehash['url'] },
                chapters: options['chapters'].map {|chapter| split_chapter(chapter)},
                downloads: [

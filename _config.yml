@@ -14,7 +14,8 @@ itunes_categories: [Technology]
 #   torrent_m4a: http://bitlove.org/example_user/example_podcast_m4a/feed
 #   torrent_mp3: http://bitlove.org/example_user/example_podcast_mp3/feed
 ## podlove-web-palyer ##########################################################
-poster: /img/Octopod.jpg
+poster: '/img/octopod1.jpg'
+logo: '/img/octopod1.jpg'
 alwaysShowHours: true
 startVolume: 0.8
 width: auto
@@ -45,6 +46,6 @@ license: CC BY 4.0
 disqus_shortname: # Disqus will not be used unless this is set
 disqus_developer: 0 # 1 / 0
 ## Itunes link ###########################################################
-itunes_url: "https://itunes.apple.com/at/podcast/myname/id#myid#"
+# itunes_url: "https://itunes.apple.com/at/podcast/myname/id#myid#"
 markdown: kramdown
 highlighter: rouge

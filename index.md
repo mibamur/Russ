@@ -14,8 +14,9 @@ A podcast publishing extension for the static site generator [Jekyll](https://je
 
 You generate a static web site for your podcast on your own computer, test drive it and sync it to your web space.
 
-No Wordpress, PHP, Ruby other scripting language, database management system or any other dynamic component is needed on your server.
-This increases security immensely.
+```shell
+octopod episode --title "Inet Forkx" -a mibamur@gmail.com -c [DataWhat,RenderHow,RunFast] -e yes --episode-cover img/Octopod.jpg --subtitle Subtitle of the episode --summary Summary of the episode --tags [web,js,http2,ssh,deploy,ruby,html5,css] podfm_rwpod_my_15_151.mp3
+```
 
 ## Tell me more!
 
@@ -74,10 +75,31 @@ Detailed documentation is provided on the folloging pages:
 
 You will find a link to the next page in the suggested reading track at the bottom of each page.
 
-_Continue reading with [Prerequisites](prerequisites)._
 
 ## Maintainer
 
 Stefan Haslinger <mailto:stefan.haslinger@informatom.com>
 
 Credits go to lots of [people and projects](credits).
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+
+_Continue reading with [Prerequisites](prerequisites)._

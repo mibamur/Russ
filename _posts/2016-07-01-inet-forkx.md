@@ -1,5 +1,5 @@
 ---
-title: Inet Forkx
+title: 'Inet Forkx'
 subtitle: Subtitle
 datum: May 22nd, 2016
 layout: post
@@ -12,7 +12,7 @@ chapters:
 - DataWhat
 - RenderHow
 - RunFast
-episode_cover: img/Octopod.jpg
+episode_cover: '/img/octopod1.jpg'
 summary: Summary
 tags:
 - web
