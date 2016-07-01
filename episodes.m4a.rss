@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Octopod</title>
+    <link>https://mibamur.github.io/Russ</link>
+    <atom:link href="https://mibamur.github.io/Russ/episodes.m4a.rss" rel="self" type="application/rss+xml" title="m4a Episode RSS-Feed"/>
+    <atom:link href="https://mibamur.github.io/Russ/episodes.m4a.rss" rel="first" type="application/rss+xml" />
+    <atom:link href="https://mibamur.github.io/Russ/episodes.m4a.rss" rel="last" type="application/rss+xml" />
+    
+    
+
+    <atom:link rel="alternate" href="https://mibamur.github.io/Russ/episodes.mp3.rss" type="application/rss+xml" title="mp3 Episode RSS-Feed"/>
+<atom:link rel="alternate" href="https://mibamur.github.io/Russ/episodes.ogg.rss" type="application/rss+xml" title="ogg Episode RSS-Feed"/>
+    <description>My super duper cool podcast.
+</description>
+    <lastBuildDate>Sat, 02 Jul 2016 00:24:39 +0900</lastBuildDate>
+    <language>en</language>
+
+    <itunes:summary>My super duper cool podcast.
+</itunes:summary>
+    <itunes:author>Uncle Octopod</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://mibamur.github.io/Russ/img/logo-itunes.jpg" />
+    <itunes:owner>
+      <itunes:name>Uncle Octopod</itunes:name>
+      <itunes:email>octopod@example.com</itunes:email>
+    </itunes:owner>
+    <managingEditor>octopod@example.com (Uncle Octopod)</managingEditor>
+    <copyright>CC BY 4.0</copyright>
+    <itunes:subtitle>Static Site Podcast Publishing for Geeks</itunes:subtitle>
+    <itunes:keywords>octopod, podcast, magic</itunes:keywords>
+    <image>
+      <title>Octopod</title>
+      <url>https://mibamur.github.io/Russ/img/logo-itunes.jpg</url>
+      <link>https://mibamur.github.io/Russ</link>
+    </image>
+    
+    <itunes:category text="Technology">
+    
+    </itunes:category>
+    
+      
+    
+      
+    
+      
+        
+        
+          <item>
+            <title>Episode 0 - Getting Started Is Never Easy</title>
+            <link>https://mibamur.github.io/Russ/2016/03/22/episode0.html</link>
+            <comments>https://mibamur.github.io/Russ/2016/03/22/episode0.html#disqus_thread</comments>
+            <pubDate>Tue, 22 Mar 2016 00:00:00 +0900</pubDate>
+            
+            <guid isPermaLink="false">https://mibamur.github.io/Russ/2016/03/22/episode0.html</guid>
+            <description><![CDATA[<h2 id="getting-started-is-never-easy">Getting Started Is Never Easy</h2>
+
+<div class="podlove-player-wrapper">  
+</div>
+
+
+<h2 id="show-notes-and-links">Show Notes and Links</h2>
+
+<ul>
+  <li>Well this is the place for the Show Notes.</li>
+  <li>Send Feedback either in the <a href="https://github.com/haslinger/jekyll-octopod">Github Repo</a> or at the Twitter account <a href="http://twitter.com/@AuaUffCode">@AuaUffCode</a>.</li>
+</ul>
+]]></description>
+            <content:encoded><![CDATA[<h2 id="getting-started-is-never-easy">Getting Started Is Never Easy</h2>
+
+<div class="podlove-player-wrapper">  
+</div>
+
+
+<h2 id="show-notes-and-links">Show Notes and Links</h2>
+
+<ul>
+  <li>Well this is the place for the Show Notes.</li>
+  <li>Send Feedback either in the <a href="https://github.com/haslinger/jekyll-octopod">Github Repo</a> or at the Twitter account <a href="http://twitter.com/@AuaUffCode">@AuaUffCode</a>.</li>
+</ul>
+]]></content:encoded>
+            <enclosure url="http://mibamur.github.io/Russ/episodes/episode0.m4a" length="4091534" type="audio/mp4a-latm" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle>Getting Started Is Never Easy</itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author>Arne and Stefan</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>0:03:13</itunes:duration>
+            
+            
+            <psc:chapters version="1.1" xmlns:psc="http://podlove.org/simple-chapters">
+              
+              <psc:chapter start="00:00:00.000" title="Intro." />
+              
+              <psc:chapter start="00:00:30.000" title="... Shoubidoubidoo ..." />
+              
+              <psc:chapter start="00:02:45.000" title="Outro." />
+              
+            </psc:chapters>
+            
+          </item>
+        
+      
+    
+  </channel>
+</rss>
